@@ -16,22 +16,20 @@ def main() -> None:
 
     photo = Image.open(source).convert("RGBA")
     width, height = photo.size
-    # Crop away some empty wall and the lower shirt so the face reads clearly
-    # in the narrow profile-README column.
-    photo = photo.crop((int(width * 0.095), int(height * 0.015), int(width * 0.855), int(height * 0.80)))
+    # Crop to the head and upper shoulders so the face fills the ASCII grid.
+    photo = photo.crop((int(width * 0.10), int(height * 0.02), int(width * 0.90), int(height * 0.85)))
     rgba = np.asarray(photo)
     alpha = rgba[:, :, 3:4].astype(np.float32) / 255.0
     white = np.full(rgba[:, :, :3].shape, 255, dtype=np.float32)
     composite = (rgba[:, :, :3] * alpha + white * (1 - alpha)).astype(np.uint8)
     gray = cv2.cvtColor(composite, cv2.COLOR_RGB2GRAY)
-    # The source already has soft lighting. Avoid CLAHE, which amplified the
-    # wall texture into distracting ASCII noise. Flatten the light wall/shirt
-    # highlights, then slightly strengthen the remaining facial contrast.
-    rgb_spread = composite.max(axis=2).astype(np.int16) - composite.min(axis=2).astype(np.int16)
-    neutral_background = (rgb_spread < 25) & (gray > 145)
-    gray[neutral_background] = 255
-    gray = cv2.convertScaleAbs(gray, alpha=1.18, beta=-24)
-    gray[gray >= 218] = 255
+    # Local contrast (CLAHE) brings out highlights and shadows on a flat-lit
+    # face so it doesn't convert to a dark blob. Then composite back onto
+    # pure white so background pixels map to the blank end of the ramp.
+    clahe = cv2.createCLAHE(clipLimit=2.0, tileGridSize=(8, 8))
+    gray = clahe.apply(gray)
+    bright_wall = gray >= 215
+    gray[bright_wall] = 255
     prepared = cv2.GaussianBlur(gray, (3, 3), 0.45)
     output = Path("source-prepped.png")
     cv2.imwrite(str(output), prepared)
