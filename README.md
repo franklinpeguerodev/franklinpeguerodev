@@ -1,16 +1,16 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**franklinpeguerodev/franklinpeguerodev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h3><code>franklinpeguerodev@github ~ $ ./contributions.sh</code></h3>
+<img src="./contrib-heatmap.svg" width="860" alt="Mapa de contribuciones de GitHub" />
 
-Here are some ideas to get you started:
+<br><br>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<h3><code>franklinpeguerodev@github ~ $ whoami</code></h3>
+<table>
+  <tr>
+    <td valign="top"><img src="./avi-ascii.svg" width="370" alt="Retrato ASCII de Franklin" /></td>
+    <td valign="top"><img src="./info-card.svg" width="490" alt="Tarjeta de información de Franklin" /></td>
+  </tr>
+</table>
+
+</div>

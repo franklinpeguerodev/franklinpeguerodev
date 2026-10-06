@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="490" height="300" viewBox="0 0 490 300">
+<rect width="490" height="300" rx="12" fill="#0d1117" stroke="#30363d"/>
+<rect width="490" height="42" rx="12" fill="#161b22"/><path d="M0 30h490v12H0z" fill="#161b22"/>
+<circle cx="22" cy="21" r="6" fill="#ff7b72"/><circle cx="42" cy="21" r="6" fill="#d29922"/><circle cx="62" cy="21" r="6" fill="#3fb950"/>
+<text x="245" y="26" text-anchor="middle" fill="#8b949e" font-family="monospace" font-size="13">franklinpeguerodev — neofetch</text>
+<style>text{font-family:monospace}.line{opacity:1;transform:translateY(0)}
+.line{opacity:0;transform:translateY(5px);animation:show .45s ease forwards}@keyframes show{to{opacity:1;transform:translateY(0)}}
+</style><text x="24" y="82" fill="#7ee787" font-size="18">franklinpeguerodev@github</text><text x="24" y="101" fill="#8b949e" font-size="13">────────────────────────────</text>
+<text class="line" style="animation-delay:0.00s" x="28" y="137" fill="#79c0ff" font-size="14">user</text><text class="line" style="animation-delay:0.00s" x="112" y="137" fill="#c9d1d9" font-size="14">franklinpeguerodev</text>
+<text class="line" style="animation-delay:0.13s" x="28" y="167" fill="#d2a8ff" font-size="14">role</text><text class="line" style="animation-delay:0.13s" x="112" y="167" fill="#c9d1d9" font-size="14">Developer</text>
+<text class="line" style="animation-delay:0.26s" x="28" y="197" fill="#a5d6ff" font-size="14">focus</text><text class="line" style="animation-delay:0.26s" x="112" y="197" fill="#c9d1d9" font-size="14">Building useful things</text>
+<text class="line" style="animation-delay:0.39s" x="28" y="227" fill="#7ee787" font-size="14">stack</text><text class="line" style="animation-delay:0.39s" x="112" y="227" fill="#c9d1d9" font-size="14">Add your technologies</text>
+<text class="line" style="animation-delay:0.52s" x="28" y="257" fill="#ffa657" font-size="14">status</text><text class="line" style="animation-delay:0.52s" x="112" y="257" fill="#c9d1d9" font-size="14">Open to collaboration</text>
+<text x="24" y="278" fill="#8b949e" font-size="12">$ Personaliza scripts/make_info_card.py con tu perfil</text></svg>
