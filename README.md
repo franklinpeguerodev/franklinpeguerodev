@@ -6,10 +6,6 @@
 <br><br>
 
 <h3><code>franklinpeguerodev@github ~ $ whoami</code></h3>
-<table>
-  <tr>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Tarjeta de información de Franklin" /></td>
-  </tr>
-</table>
+<img src="./info-card.svg" width="490" alt="Tarjeta de información de Franklin" />
 
 </div>
