@@ -9,7 +9,7 @@ def main() -> None:
         ("user", "franklinpeguerodev", "#79c0ff"),
         ("role", "Developer", "#d2a8ff"),
         ("focus", "Building useful things", "#a5d6ff"),
-        ("stack", "Add your technologies", "#7ee787"),
+        ("stack", "C# · Java", "#7ee787"),
         ("status", "Open to collaboration", "#ffa657"),
     ]
     svg = ['''<svg xmlns="http://www.w3.org/2000/svg" width="490" height="300" viewBox="0 0 490 300">
