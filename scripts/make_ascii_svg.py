@@ -4,10 +4,10 @@ import html
 
 from PIL import Image
 
-RAMP = " .`:-=+*cs#%@"   # bright (sparse) -> dark (dense)
-COLS, ROWS = 38, 45
-CELL_W, CELL_H = 8, 16
-PADDING = 12
+RAMP = " .,:;!ilI+*#%@"   # bright (sparse) -> dark (dense)
+COLS, ROWS = 60, 60
+CELL_W, CELL_H = 9, 12
+PADDING = 14
 
 
 def main() -> None:
@@ -29,16 +29,16 @@ def main() -> None:
 <defs>
   <pattern id="terminal-stripes" width="6" height="6" patternUnits="userSpaceOnUse"><path d="M0 0H6" fill="none" stroke="#39d878" stroke-opacity=".22" stroke-width="1"/></pattern>
 </defs>
-<rect width="100%" height="100%" rx="10" fill="#0c281b"/>
-<rect width="100%" height="100%" rx="10" fill="url(#terminal-stripes)"/>
-<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="10" fill="none" stroke="#2ea043" stroke-opacity=".55" stroke-width="1.5"/>
-<style>text{{font:14px monospace;fill:#d7e4e8;white-space:pre}}</style>''']
+<rect width="100%" height="100%" rx="12" fill="#0c281b"/>
+<rect width="100%" height="100%" rx="12" fill="url(#terminal-stripes)"/>
+<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="12" fill="none" stroke="#2ea043" stroke-opacity=".55" stroke-width="1.5"/>
+<style>text{{font:12px monospace;fill:#d7e4e8;white-space:pre}}</style>''']
     for i, line in enumerate(lines):
         y = PADDING + (i + 1) * CELL_H
-        delay = i * 0.045
+        delay = i * 0.04
         chunks.append(
             f'<clipPath id="row{i}"><rect x="{PADDING}" y="{y - CELL_H + 2}" width="0" height="{CELL_H}">'
-            f'<animate attributeName="width" from="0" to="{COLS * CELL_W}" dur="0.75s" begin="{delay:.3f}s" fill="freeze"/>'
+            f'<animate attributeName="width" from="0" to="{COLS * CELL_W}" dur="0.7s" begin="{delay:.3f}s" fill="freeze"/>'
             f'</rect></clipPath>'
         )
         chunks.append(f'<text xml:space="preserve" x="{PADDING}" y="{y}" clip-path="url(#row{i})">{html.escape(line)}</text>')

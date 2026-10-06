@@ -16,8 +16,12 @@ def main() -> None:
 
     photo = Image.open(source).convert("RGBA")
     width, height = photo.size
-    # Crop to the head and upper shoulders so the face fills the ASCII grid.
-    photo = photo.crop((int(width * 0.10), int(height * 0.02), int(width * 0.90), int(height * 0.85)))
+    # Crop to the head and shoulders; resize to a square so the ASCII grid
+    # stays readable instead of stretching the face.
+    side = min(int(width * 0.82), int(height * 0.86))
+    left = (width - side) // 2
+    top = int(height * 0.02)
+    photo = photo.crop((left, top, left + side, top + side))
     rgba = np.asarray(photo)
     alpha = rgba[:, :, 3:4].astype(np.float32) / 255.0
     white = np.full(rgba[:, :, :3].shape, 255, dtype=np.float32)
