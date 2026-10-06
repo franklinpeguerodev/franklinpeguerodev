@@ -48,8 +48,8 @@ def main() -> None:
     for i, color in enumerate(PALETTE):
         parts.append(f'<rect x="{width - 79 + i * 14}" y="{height - 24}" width="10" height="10" rx="2" fill="{color}"/>')
     parts.append("</svg>")
-    Path("contrib-heatmap.svg").write_text("\n".join(parts), encoding="utf-8")
-    print("Generado contrib-heatmap.svg")
+    Path("contrib-heatmap-live.svg").write_text("\n".join(parts), encoding="utf-8")
+    print("Generado contrib-heatmap-live.svg")
 
 
 if __name__ == "__main__":
