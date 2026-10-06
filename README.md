@@ -1,7 +1,7 @@
 <div align="center">
 
 <h3><code>franklinpeguerodev@github ~ $ ./contributions.sh</code></h3>
-<img src="./contrib-heatmap.svg" width="860" alt="Mapa de contribuciones de GitHub" />
+<img src="./contrib-heatmap.svg?v=2" width="860" alt="Mapa de contribuciones de GitHub" />
 
 <br><br>
 
