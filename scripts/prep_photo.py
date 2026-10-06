@@ -18,7 +18,7 @@ def main() -> None:
     width, height = photo.size
     # Crop away some empty wall and the lower shirt so the face reads clearly
     # in the narrow profile-README column.
-    photo = photo.crop((int(width * 0.12), int(height * 0.015), int(width * 0.88), int(height * 0.80)))
+    photo = photo.crop((int(width * 0.095), int(height * 0.015), int(width * 0.855), int(height * 0.80)))
     rgba = np.asarray(photo)
     alpha = rgba[:, :, 3:4].astype(np.float32) / 255.0
     white = np.full(rgba[:, :, :3].shape, 255, dtype=np.float32)
