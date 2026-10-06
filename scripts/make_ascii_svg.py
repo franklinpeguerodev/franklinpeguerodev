@@ -24,14 +24,14 @@ def main() -> None:
     width, height = COLS * CELL_W + 24, ROWS * CELL_H + 24
     chunks = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
 <defs>
-  <linearGradient id="terminal-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#101a24"/><stop offset="1" stop-color="#080d12"/></linearGradient>
-  <radialGradient id="portrait-halo"><stop stop-color="#00d6a3" stop-opacity=".18"/><stop offset="1" stop-color="#00d6a3" stop-opacity="0"/></radialGradient>
-  <pattern id="terminal-grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#58a6ff" stroke-opacity=".045" stroke-width="1"/></pattern>
+  <linearGradient id="terminal-bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0c281b"/><stop offset="1" stop-color="#07130d"/></linearGradient>
+  <radialGradient id="portrait-halo"><stop stop-color="#31e58b" stop-opacity=".16"/><stop offset="1" stop-color="#31e58b" stop-opacity="0"/></radialGradient>
+  <pattern id="terminal-stripes" width="12" height="8" patternUnits="userSpaceOnUse"><path d="M0 1H12" fill="none" stroke="#39d878" stroke-opacity=".14" stroke-width="1"/></pattern>
 </defs>
 <rect width="100%" height="100%" rx="12" fill="url(#terminal-bg)"/>
 <ellipse cx="{width / 2:.0f}" cy="{height / 2:.0f}" rx="{width * 0.48:.0f}" ry="{height * 0.44:.0f}" fill="url(#portrait-halo)"/>
-<rect width="100%" height="100%" rx="12" fill="url(#terminal-grid)"/>
-<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="12" fill="none" stroke="#2ea043" stroke-opacity=".38"/>
+<rect width="100%" height="100%" rx="12" fill="url(#terminal-stripes)"/>
+<rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="12" fill="none" stroke="#39d878" stroke-opacity=".42"/>
 <style>text{{font:14px monospace;fill:#d7e4e8;white-space:pre}}</style>''']
     for i, line in enumerate(lines):
         y = 20 + (i + 1) * CELL_H
