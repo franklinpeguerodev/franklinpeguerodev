@@ -5,8 +5,8 @@ import math
 
 from PIL import Image
 
-RAMP = " .`:-=+*cs#%@"
-COLS, ROWS = 76, 42
+RAMP = "  .,:-=+*#%@"
+COLS, ROWS = 76, 58
 CELL_W, CELL_H = 10, 16
 
 
@@ -23,15 +23,15 @@ def main() -> None:
 
     width, height = COLS * CELL_W + 24, ROWS * CELL_H + 24
     chunks = [f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
-<rect width="100%" height="100%" rx="12" fill="#0d1117"/><style>text{{font:14px monospace;fill:#c9d1d9}}</style>''']
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/><style>text{{font:14px monospace;fill:#c9d1d9;white-space:pre}}</style>''']
     for i, line in enumerate(lines):
         y = 20 + (i + 1) * CELL_H
         delay = i * 0.055
         chunks.append(f'<clipPath id="row{i}"><rect x="12" y="{y - CELL_H + 2}" width="0" height="{CELL_H}"><animate attributeName="width" from="0" to="{COLS * CELL_W}" dur="0.75s" begin="{delay:.3f}s" fill="freeze"/></rect></clipPath>')
-        chunks.append(f'<text x="12" y="{y}" clip-path="url(#row{i})">{html.escape(line)}</text>')
+        chunks.append(f'<text xml:space="preserve" x="12" y="{y}" clip-path="url(#row{i})">{html.escape(line)}</text>')
     chunks.append("</svg>")
-    Path("avi-ascii.svg").write_text("\n".join(chunks), encoding="utf-8")
-    print("Generado avi-ascii.svg")
+    Path("franklin-ascii.svg").write_text("\n".join(chunks), encoding="utf-8")
+    print("Generado franklin-ascii.svg")
 
 
 if __name__ == "__main__":

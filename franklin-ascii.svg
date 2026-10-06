@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="784" height="952" viewBox="0 0 784 952">
+<rect width="100%" height="100%" rx="12" fill="#0d1117"/><style>text{font:14px monospace;fill:#c9d1d9;white-space:pre}</style>
+<clipPath id="row0"><rect x="12" y="22" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.000s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="36" clip-path="url(#row0)">                         .:-=+=+-,-===+++*+=--:.                            </text>
+<clipPath id="row1"><rect x="12" y="38" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.055s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="52" clip-path="url(#row1)">                    :-:-=*##****####***##*******+:                          </text>
+<clipPath id="row2"><rect x="12" y="54" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.110s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="68" clip-path="url(#row2)">                  -+******##*****#############****++=                       </text>
+<clipPath id="row3"><rect x="12" y="70" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.165s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="84" clip-path="url(#row3)">                 =********#***####*#################*=:..                   </text>
+<clipPath id="row4"><rect x="12" y="86" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.220s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="100" clip-path="url(#row4)">            .:--=*******##############################*,::                  </text>
+<clipPath id="row5"><rect x="12" y="102" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.275s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="116" clip-path="url(#row5)">           . -=*#********###########******#############*+:                  </text>
+<clipPath id="row6"><rect x="12" y="118" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.330s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="132" clip-path="url(#row6)">           .=**####*+*****#*********+*****###############:                  </text>
+<clipPath id="row7"><rect x="12" y="134" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.385s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="148" clip-path="url(#row7)">           =*#####**+==++++==+===++===++****+*##***#######:                 </text>
+<clipPath id="row8"><rect x="12" y="150" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.440s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="164" clip-path="url(#row8)">          +*#####=---::-------------::--======+++++++*####%-                </text>
+<clipPath id="row9"><rect x="12" y="166" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.495s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="180" clip-path="url(#row9)">         :######+::::,::::,:,,,,,:::::::--------======+#####+               </text>
+<clipPath id="row10"><rect x="12" y="182" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.550s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="196" clip-path="url(#row10)">         -##***+:,,,,,,,,,,,,,,,,::::::::----------====+#%###:              </text>
+<clipPath id="row11"><rect x="12" y="198" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.605s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="212" clip-path="url(#row11)">         =****=:,,,,,,,,,,,,,,:::::::::::--------------=+*###*              </text>
+<clipPath id="row12"><rect x="12" y="214" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.660s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="228" clip-path="url(#row12)">         +***+-,,,,,,,,,,,,,,,:::::::::::----------------=*###.             </text>
+<clipPath id="row13"><rect x="12" y="230" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.715s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="244" clip-path="url(#row13)">         =***+:,,,,,,,,,,,,,,,:::::::::::::--------------=*###-             </text>
+<clipPath id="row14"><rect x="12" y="246" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.770s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="260" clip-path="url(#row14)">         :**++-,,,,,,,,,,,,,,,,::::::::::::--------====-==*###-             </text>
+<clipPath id="row15"><rect x="12" y="262" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.825s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="276" clip-path="url(#row15)">         ,*++==,,,,,,,,,,,,,,,:::::::::::::---------======**##.             </text>
+<clipPath id="row16"><rect x="12" y="278" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.880s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="292" clip-path="url(#row16)">          ++==-,,,,,:-====------::::::::--:---=======-====+*#+              </text>
+<clipPath id="row17"><rect x="12" y="294" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.935s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="308" clip-path="url(#row17)">          -+=-,,,,:=++***####*++=--------=+**#######+====-=*#,              </text>
+<clipPath id="row18"><rect x="12" y="310" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="0.990s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="324" clip-path="url(#row18)">          .=-:,,,:--::--==++++++=========+***####**++**==-=*+               </text>
+<clipPath id="row19"><rect x="12" y="326" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.045s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="340" clip-path="url(#row19)">           ::,,,,,::-----=++++===-----==+++*****+++++=++=-=+:               </text>
+<clipPath id="row20"><rect x="12" y="342" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.100s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="356" clip-path="url(#row20)">            :,,,:::-===++******+--:,,:--=+*#####****++===-==                </text>
+<clipPath id="row21"><rect x="12" y="358" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.155s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="372" clip-path="url(#row21)">            :,,,::-=++:=%%%++**=-:,,,,:-=+*##*%%%#****+====:                </text>
+<clipPath id="row22"><rect x="12" y="374" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.210s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="388" clip-path="url(#row22)">        ,::,,,,,,::--=--+**++=--::,,,,:-==+**+*##*+***++==-=+=-             </text>
+<clipPath id="row23"><rect x="12" y="390" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.265s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="404" clip-path="url(#row23)">        :+-:,,,,,,:::--====--::::,,,,,:--====++++++++=====-==**.            </text>
+<clipPath id="row24"><rect x="12" y="406" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.320s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="420" clip-path="url(#row24)">        .+:,:,,,,,,,::::::::::,,,,,,,,,:--==--===============*+             </text>
+<clipPath id="row25"><rect x="12" y="422" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.375s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="436" clip-path="url(#row25)">         -,:-,,,,,,,,::::::,,,,,,,,,,,,:--==--------------=+=*-             </text>
+<clipPath id="row26"><rect x="12" y="438" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.430s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="452" clip-path="url(#row26)">         .,--,,,,,,,,,,:,,,,,,:,:,,,,,,:---==-------------=*+=.             </text>
+<clipPath id="row27"><rect x="12" y="454" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.485s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="468" clip-path="url(#row27)">          ,:::,,,,,,,,,,,,,,::::,,,,,,,::---=-------------=*+-              </text>
+<clipPath id="row28"><rect x="12" y="470" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.540s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="484" clip-path="url(#row28)">          ,.::,,,,,,,,,:,,,::::::-=-::---++===------------===.              </text>
+<clipPath id="row29"><rect x="12" y="486" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.595s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="500" clip-path="url(#row29)">           ,,-:,,,,,,,,,,,::::,:=+*+===+*#*++=--------==--+-,               </text>
+<clipPath id="row30"><rect x="12" y="502" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.650s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="516" clip-path="url(#row30)">            ,=-,,,,,,,,,,::::,,::---=+*****+++=------=====*,                </text>
+<clipPath id="row31"><rect x="12" y="518" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.705s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="532" clip-path="url(#row31)">             :=-:,,,,,,:,:::::::--=+**+*##*++==-----=====*=                 </text>
+<clipPath id="row32"><rect x="12" y="534" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.760s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="548" clip-path="url(#row32)">             .+=--:,,,,,,::::---========+***++=========+*#:                 </text>
+<clipPath id="row33"><rect x="12" y="550" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.815s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="564" clip-path="url(#row33)">              +===-:::,,:::-==---==++++**+++++*+=====++**#,                 </text>
+<clipPath id="row34"><rect x="12" y="566" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.870s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="580" clip-path="url(#row34)">              -+====-:::::-=*+++++++************++===***##.                 </text>
+<clipPath id="row35"><rect x="12" y="582" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.925s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="596" clip-path="url(#row35)">              .*+++==-:::-=====-----=====++**#**++=++*#*#*                  </text>
+<clipPath id="row36"><rect x="12" y="598" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="1.980s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="612" clip-path="url(#row36)">               -*+++++-::----:----=======+++++++++++*###%:                  </text>
+<clipPath id="row37"><rect x="12" y="614" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.035s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="628" clip-path="url(#row37)">                *#*+++=::------===++*******++++++++*###%+                   </text>
+<clipPath id="row38"><rect x="12" y="630" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.090s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="644" clip-path="url(#row38)">                 *#**+=-:-------==+*###***++++++++**####,                   </text>
+<clipPath id="row39"><rect x="12" y="646" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.145s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="660" clip-path="url(#row39)">                 -*#*+--:::::::--:--=++=++++++++++**#%#,                    </text>
+<clipPath id="row40"><rect x="12" y="662" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.200s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="676" clip-path="url(#row40)">                 :-+**=--:::::::::::----=======+++*#%#*,                    </text>
+<clipPath id="row41"><rect x="12" y="678" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.255s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="692" clip-path="url(#row41)">                 ::--+#*+-:::::::--==+========++*#%#*+*#.                   </text>
+<clipPath id="row42"><rect x="12" y="694" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.310s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="708" clip-path="url(#row42)">                ,:::-=+*##+-:::-==+**##***++++*#%%#*++*%-                   </text>
+<clipPath id="row43"><rect x="12" y="710" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.365s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="724" clip-path="url(#row43)">                =:::--==+*##++++*###%%%%###*##%%#**+++*%+                   </text>
+<clipPath id="row44"><rect x="12" y="726" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.420s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="740" clip-path="url(#row44)">               ,*:::---===+*#%###%%%%%%%%%%%%%#**+++++*%*                   </text>
+<clipPath id="row45"><rect x="12" y="742" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.475s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="756" clip-path="url(#row45)">               :*:::---=====+*###%%%%%%%%%%##***++++++*%+                   </text>
+<clipPath id="row46"><rect x="12" y="758" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.530s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="772" clip-path="url(#row46)">               ,#-:::---======++++************+++++++*##-                   </text>
+<clipPath id="row47"><rect x="12" y="774" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.585s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="788" clip-path="url(#row47)">                -+-:-----========+++***********++++++*#=:                   </text>
+<clipPath id="row48"><rect x="12" y="790" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.640s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="804" clip-path="url(#row48)">                 +=-:-----=======+++++********++++++*#+-.                   </text>
+<clipPath id="row49"><rect x="12" y="806" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.695s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="820" clip-path="url(#row49)">                 .*=---------=====++++++++++++++++**#+,                     </text>
+<clipPath id="row50"><rect x="12" y="822" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.750s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="836" clip-path="url(#row50)">                  -*=-----------====+++++++++++****#*.                      </text>
+<clipPath id="row51"><rect x="12" y="838" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.805s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="852" clip-path="url(#row51)">                   =+=------=======+++++++++++****#*.                       </text>
+<clipPath id="row52"><rect x="12" y="854" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.860s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="868" clip-path="url(#row52)">                    ++==--========++++***++++****##.                        </text>
+<clipPath id="row53"><rect x="12" y="870" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.915s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="884" clip-path="url(#row53)">                    .+++======++++++++++++++***##*.                         </text>
+<clipPath id="row54"><rect x="12" y="886" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="2.970s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="900" clip-path="url(#row54)">                      ,=++====+++++++++++++***#*=                           </text>
+<clipPath id="row55"><rect x="12" y="902" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="3.025s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="916" clip-path="url(#row55)">            ..          :=++=+++++++++++++**##-                             </text>
+<clipPath id="row56"><rect x="12" y="918" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="3.080s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="932" clip-path="url(#row56)">           .::.           -=====++++++++++***.          ..                  </text>
+<clipPath id="row57"><rect x="12" y="934" width="0" height="16"><animate attributeName="width" from="0" to="760" dur="0.75s" begin="3.135s" fill="freeze"/></rect></clipPath>
+<text xml:space="preserve" x="12" y="948" clip-path="url(#row57)">                           ,--===++++===+**=            ==--:,.             </text>
+</svg>
