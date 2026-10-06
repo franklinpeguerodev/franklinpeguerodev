@@ -17,25 +17,36 @@ def main() -> None:
     start = date.fromordinal(first.toordinal() - (first.weekday() + 1) % 7)
     last = date.fromisoformat(days[-1]["date"])
     by_date = {item["date"]: item for item in days}
-    cell, gap, left, top = 11, 4, 42, 36
+    cell, gap, left, top = 11, 4, 36, 48
     columns = min(53, (last - start).days // 7 + 1)
-    width, height = 42 + columns * (cell + gap), 150
-    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}"><rect width="100%" height="100%" rx="12" fill="#0d1117"/>', '<style>text{font-family:monospace;fill:#8b949e;font-size:11px}.day{opacity:0;animation:reveal .3s ease forwards}@keyframes reveal{to{opacity:1}}</style>', f'<text x="{left}" y="20">{data["username"]} · contributions in the last year</text>']
+    width, height = left + columns * (cell + gap) + 18, 190
+    parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}"><rect width="100%" height="100%" rx="12" fill="#0d1117"/>', '<style>text{font-family:monospace;fill:#8b949e;font-size:11px}.day{opacity:0;animation:reveal .3s ease forwards}@keyframes reveal{to{opacity:1}}</style>', f'<text x="{left}" y="23" fill="#c9d1d9">{data["username"]} · contributions in the last year</text>']
+    seen_months = set()
     for week in range(columns):
-        for weekday in range(7):
-            current = date.fromordinal(start.toordinal() + week * 7 + weekday)
+        week_start = date.fromordinal(start.toordinal() + week * 7)
+        month_key = (week_start.year, week_start.month)
+        if month_key not in seen_months:
+            seen_months.add(month_key)
+            parts.append(f'<text x="{left + week * (cell + gap)}" y="40">{week_start.strftime("%b")}</text>')
+    for weekday, label in ((0, "Sun"), (2, "Tue"), (4, "Thu")):
+        parts.append(f'<text x="7" y="{top + weekday * (cell + gap) + 9}">{label}</text>')
+    for week in range(columns):
+        for row in range(7):
+            current = date.fromordinal(start.toordinal() + week * 7 + row)
             record = by_date.get(current.isoformat())
             if record is None:
                 continue
+            weekday = (current.weekday() + 1) % 7
             x, y = left + week * (cell + gap), top + weekday * (cell + gap)
             level = max(0, min(4, int(record["level"])))
             delay = (week + weekday) * 0.018
             title = f'{record["count"]} contributions on {record["date"]}'
             parts.append(f'<rect class="day" x="{x}" y="{y}" width="{cell}" height="{cell}" rx="3" fill="{PALETTE[level]}" style="animation-delay:{delay:.3f}s"><title>{title}</title></rect>')
     total = sum(int(day["count"]) for day in days)
-    parts.append(f'<text x="{left}" y="{height - 14}">{total:,} contributions</text><text x="{width - 110}" y="{height - 14}">Less</text>')
+    footer_y = height - 14
+    parts.append(f'<text x="{left}" y="{footer_y}" fill="#c9d1d9">{total:,} contributions</text><text x="{width - 114}" y="{footer_y}">Less</text>')
     for i, color in enumerate(PALETTE):
-        parts.append(f'<rect x="{width - 78 + i * 14}" y="{height - 24}" width="10" height="10" rx="2" fill="{color}"/>')
+        parts.append(f'<rect x="{width - 79 + i * 14}" y="{height - 24}" width="10" height="10" rx="2" fill="{color}"/>')
     parts.append("</svg>")
     Path("contrib-heatmap.svg").write_text("\n".join(parts), encoding="utf-8")
     print("Generado contrib-heatmap.svg")

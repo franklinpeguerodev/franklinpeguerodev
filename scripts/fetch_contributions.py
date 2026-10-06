@@ -2,6 +2,7 @@
 from datetime import date
 import json
 from pathlib import Path
+import re
 
 import requests
 from bs4 import BeautifulSoup
@@ -14,13 +15,15 @@ def main() -> None:
     response = requests.get(url, headers={"User-Agent": "profile-readme-generator"}, timeout=30)
     response.raise_for_status()
     soup = BeautifulSoup(response.text, "html.parser")
+    tooltips = {
+        tooltip.get("for"): tooltip.get_text(" ", strip=True)
+        for tooltip in soup.select("tool-tip[for]")
+    }
     days = []
     for cell in soup.select("td[data-date]"):
-        raw_count = cell.get("data-count", "0")
-        try:
-            count = int(raw_count)
-        except (TypeError, ValueError):
-            count = 0
+        tooltip = tooltips.get(cell.get("id"), "")
+        match = re.search(r"([\d,]+) contributions?", tooltip, re.IGNORECASE)
+        count = int(match.group(1).replace(",", "")) if match else 0
         level = cell.get("data-level", "0")
         try:
             level = max(0, min(4, int(level)))
