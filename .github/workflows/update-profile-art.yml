@@ -2,10 +2,14 @@ name: Update profile art
 
 on:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 */2 * * *"
   workflow_dispatch:
   push:
     branches: [main]
+
+concurrency:
+  group: update-profile-art
+  cancel-in-progress: false
 
 permissions:
   contents: write
