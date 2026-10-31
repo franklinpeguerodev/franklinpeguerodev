@@ -1844,18 +1844,18 @@
     },
     {
       "date": "2026-10-29",
-      "count": 10,
-      "level": 1
+      "count": 20,
+      "level": 2
     },
     {
       "date": "2026-10-30",
-      "count": 6,
+      "count": 14,
       "level": 1
     },
     {
       "date": "2026-10-31",
-      "count": 5,
-      "level": 1
+      "count": 16,
+      "level": 2
     }
   ]
 }
